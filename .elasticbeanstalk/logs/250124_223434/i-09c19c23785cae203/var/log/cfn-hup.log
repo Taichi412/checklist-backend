@@ -1,0 +1,22 @@
+2025-01-24 13:19:06,420 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-northeast-1.amazonaws.com
+2025-01-24 13:19:06,421 [DEBUG] SQS client initialized with endpoint https://sqs.ap-northeast-1.amazonaws.com
+2025-01-24 13:19:06,421 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-northeast-1.amazonaws.com
+2025-01-24 13:19:06,421 [DEBUG] Enabled single threading mode.
+2025-01-24 13:19:06,421 [DEBUG] Creating /var/lib/cfn-hup/data
+2025-01-24 13:19:06,440 [INFO] No umask value specified in config file. Using the default one: 0o22
+2025-01-24 13:19:06,589 [INFO] Pid: 1806
+2025-01-24 13:19:07,154 [INFO] Refreshing listener credentials
+2025-01-24 13:19:07,350 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-01-24 13:20:57,552 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: 2e56cd3a-e9a5-4723-8222-136b40f00865)
+2025-01-24 13:20:57,552 [INFO] Running action for aws-eb-command-handler
+2025-01-24 13:21:00,758 [INFO] Action for aws-eb-command-handler succeeded, returning SUCCESS
+2025-01-24 13:24:22,232 [INFO] command processing is alive.
+2025-01-24 13:25:15,860 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: f39e0064-1139-4341-829c-b77f7cadba8f)
+2025-01-24 13:25:15,860 [INFO] Running action for aws-eb-command-handler
+2025-01-24 13:25:16,871 [INFO] Action for aws-eb-command-handler succeeded, returning SUCCESS
+2025-01-24 13:29:38,201 [INFO] command processing is alive.
+2025-01-24 13:31:27,456 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: 5fe56fe6-74be-4830-bc91-78e4a8dd4e76)
+2025-01-24 13:31:27,456 [INFO] Running action for aws-eb-command-handler
+2025-01-24 13:31:35,522 [INFO] Action for aws-eb-command-handler succeeded, returning SUCCESS
+2025-01-24 13:34:30,719 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: db1f76db-4e77-4ed7-8ccc-b2ce66aa6e24)
+2025-01-24 13:34:30,719 [INFO] Running action for aws-eb-command-handler

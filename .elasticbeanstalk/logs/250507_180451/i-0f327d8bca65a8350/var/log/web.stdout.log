@@ -1,0 +1,665 @@
+May  7 08:15:50 ip-172-31-33-132 web[2150]: > checklist-backend@1.0.0 start
+May  7 08:15:50 ip-172-31-33-132 web[2150]: > node index.js
+May  7 08:15:50 ip-172-31-33-132 web[2219]: node:internal/modules/cjs/loader:1143
+May  7 08:15:50 ip-172-31-33-132 web[2219]:  throw err;
+May  7 08:15:50 ip-172-31-33-132 web[2219]:  ^
+May  7 08:15:50 ip-172-31-33-132 web[2219]: Error: Cannot find module 'cookie-parser'
+May  7 08:15:50 ip-172-31-33-132 web[2219]: Require stack:
+May  7 08:15:50 ip-172-31-33-132 web[2219]: - /var/app/current/index.js
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:15:50 ip-172-31-33-132 web[2219]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:15:50 ip-172-31-33-132 web[2219]:  code: 'MODULE_NOT_FOUND',
+May  7 08:15:50 ip-172-31-33-132 web[2219]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:15:50 ip-172-31-33-132 web[2219]: }
+May  7 08:15:50 ip-172-31-33-132 web[2219]: Node.js v18.20.6
+May  7 08:15:50 ip-172-31-33-132 web[2150]: npm notice
+May  7 08:15:50 ip-172-31-33-132 web[2150]: npm notice New major version of npm available! 10.8.2 -> 11.3.0
+May  7 08:15:50 ip-172-31-33-132 web[2150]: npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.3.0
+May  7 08:15:50 ip-172-31-33-132 web[2150]: npm notice To update run: npm install -g npm@11.3.0
+May  7 08:15:50 ip-172-31-33-132 web[2150]: npm notice
+May  7 08:15:51 ip-172-31-33-132 web[2237]: > checklist-backend@1.0.0 start
+May  7 08:15:51 ip-172-31-33-132 web[2237]: > node index.js
+May  7 08:15:51 ip-172-31-33-132 web[2255]: node:internal/modules/cjs/loader:1143
+May  7 08:15:51 ip-172-31-33-132 web[2255]:  throw err;
+May  7 08:15:51 ip-172-31-33-132 web[2255]:  ^
+May  7 08:15:51 ip-172-31-33-132 web[2255]: Error: Cannot find module 'cookie-parser'
+May  7 08:15:51 ip-172-31-33-132 web[2255]: Require stack:
+May  7 08:15:51 ip-172-31-33-132 web[2255]: - /var/app/current/index.js
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:15:51 ip-172-31-33-132 web[2255]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:15:51 ip-172-31-33-132 web[2255]:  code: 'MODULE_NOT_FOUND',
+May  7 08:15:51 ip-172-31-33-132 web[2255]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:15:51 ip-172-31-33-132 web[2255]: }
+May  7 08:15:51 ip-172-31-33-132 web[2255]: Node.js v18.20.6
+May  7 08:15:52 ip-172-31-33-132 web[2266]: > checklist-backend@1.0.0 start
+May  7 08:15:52 ip-172-31-33-132 web[2266]: > node index.js
+May  7 08:15:52 ip-172-31-33-132 web[2284]: node:internal/modules/cjs/loader:1143
+May  7 08:15:52 ip-172-31-33-132 web[2284]:  throw err;
+May  7 08:15:52 ip-172-31-33-132 web[2284]:  ^
+May  7 08:15:52 ip-172-31-33-132 web[2284]: Error: Cannot find module 'cookie-parser'
+May  7 08:15:52 ip-172-31-33-132 web[2284]: Require stack:
+May  7 08:15:52 ip-172-31-33-132 web[2284]: - /var/app/current/index.js
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:15:52 ip-172-31-33-132 web[2284]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:15:52 ip-172-31-33-132 web[2284]:  code: 'MODULE_NOT_FOUND',
+May  7 08:15:52 ip-172-31-33-132 web[2284]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:15:52 ip-172-31-33-132 web[2284]: }
+May  7 08:15:52 ip-172-31-33-132 web[2284]: Node.js v18.20.6
+May  7 08:15:52 ip-172-31-33-132 web[2295]: > checklist-backend@1.0.0 start
+May  7 08:15:52 ip-172-31-33-132 web[2295]: > node index.js
+May  7 08:15:53 ip-172-31-33-132 web[2313]: node:internal/modules/cjs/loader:1143
+May  7 08:15:53 ip-172-31-33-132 web[2313]:  throw err;
+May  7 08:15:53 ip-172-31-33-132 web[2313]:  ^
+May  7 08:15:53 ip-172-31-33-132 web[2313]: Error: Cannot find module 'cookie-parser'
+May  7 08:15:53 ip-172-31-33-132 web[2313]: Require stack:
+May  7 08:15:53 ip-172-31-33-132 web[2313]: - /var/app/current/index.js
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:15:53 ip-172-31-33-132 web[2313]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:15:53 ip-172-31-33-132 web[2313]:  code: 'MODULE_NOT_FOUND',
+May  7 08:15:53 ip-172-31-33-132 web[2313]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:15:53 ip-172-31-33-132 web[2313]: }
+May  7 08:15:53 ip-172-31-33-132 web[2313]: Node.js v18.20.6
+May  7 08:15:53 ip-172-31-33-132 web[2324]: > checklist-backend@1.0.0 start
+May  7 08:15:53 ip-172-31-33-132 web[2324]: > node index.js
+May  7 08:15:53 ip-172-31-33-132 web[2342]: node:internal/modules/cjs/loader:1143
+May  7 08:15:53 ip-172-31-33-132 web[2342]:  throw err;
+May  7 08:15:53 ip-172-31-33-132 web[2342]:  ^
+May  7 08:15:53 ip-172-31-33-132 web[2342]: Error: Cannot find module 'cookie-parser'
+May  7 08:15:53 ip-172-31-33-132 web[2342]: Require stack:
+May  7 08:15:53 ip-172-31-33-132 web[2342]: - /var/app/current/index.js
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:15:53 ip-172-31-33-132 web[2342]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:15:53 ip-172-31-33-132 web[2342]:  code: 'MODULE_NOT_FOUND',
+May  7 08:15:53 ip-172-31-33-132 web[2342]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:15:53 ip-172-31-33-132 web[2342]: }
+May  7 08:15:53 ip-172-31-33-132 web[2342]: Node.js v18.20.6
+May  7 08:15:54 ip-172-31-33-132 web[2353]: > checklist-backend@1.0.0 start
+May  7 08:15:54 ip-172-31-33-132 web[2353]: > node index.js
+May  7 08:15:54 ip-172-31-33-132 web[2371]: node:internal/modules/cjs/loader:1143
+May  7 08:15:54 ip-172-31-33-132 web[2371]:  throw err;
+May  7 08:15:54 ip-172-31-33-132 web[2371]:  ^
+May  7 08:15:54 ip-172-31-33-132 web[2371]: Error: Cannot find module 'cookie-parser'
+May  7 08:15:54 ip-172-31-33-132 web[2371]: Require stack:
+May  7 08:15:54 ip-172-31-33-132 web[2371]: - /var/app/current/index.js
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:15:54 ip-172-31-33-132 web[2371]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:15:54 ip-172-31-33-132 web[2371]:  code: 'MODULE_NOT_FOUND',
+May  7 08:15:54 ip-172-31-33-132 web[2371]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:15:54 ip-172-31-33-132 web[2371]: }
+May  7 08:15:54 ip-172-31-33-132 web[2371]: Node.js v18.20.6
+May  7 08:18:58 ip-172-31-33-132 web[2908]: > checklist-backend@1.0.0 start
+May  7 08:18:58 ip-172-31-33-132 web[2908]: > node index.js
+May  7 08:18:58 ip-172-31-33-132 web[2955]: node:internal/modules/cjs/loader:1143
+May  7 08:18:58 ip-172-31-33-132 web[2955]:  throw err;
+May  7 08:18:58 ip-172-31-33-132 web[2955]:  ^
+May  7 08:18:58 ip-172-31-33-132 web[2955]: Error: Cannot find module 'cookie-parser'
+May  7 08:18:58 ip-172-31-33-132 web[2955]: Require stack:
+May  7 08:18:58 ip-172-31-33-132 web[2955]: - /var/app/current/index.js
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:18:58 ip-172-31-33-132 web[2955]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:18:58 ip-172-31-33-132 web[2955]:  code: 'MODULE_NOT_FOUND',
+May  7 08:18:58 ip-172-31-33-132 web[2955]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:18:58 ip-172-31-33-132 web[2955]: }
+May  7 08:18:58 ip-172-31-33-132 web[2955]: Node.js v18.20.6
+May  7 08:18:58 ip-172-31-33-132 web[2985]: > checklist-backend@1.0.0 start
+May  7 08:18:58 ip-172-31-33-132 web[2985]: > node index.js
+May  7 08:18:59 ip-172-31-33-132 web[3003]: node:internal/modules/cjs/loader:1143
+May  7 08:18:59 ip-172-31-33-132 web[3003]:  throw err;
+May  7 08:18:59 ip-172-31-33-132 web[3003]:  ^
+May  7 08:18:59 ip-172-31-33-132 web[3003]: Error: Cannot find module 'cookie-parser'
+May  7 08:18:59 ip-172-31-33-132 web[3003]: Require stack:
+May  7 08:18:59 ip-172-31-33-132 web[3003]: - /var/app/current/index.js
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:18:59 ip-172-31-33-132 web[3003]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:18:59 ip-172-31-33-132 web[3003]:  code: 'MODULE_NOT_FOUND',
+May  7 08:18:59 ip-172-31-33-132 web[3003]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:18:59 ip-172-31-33-132 web[3003]: }
+May  7 08:18:59 ip-172-31-33-132 web[3003]: Node.js v18.20.6
+May  7 08:18:59 ip-172-31-33-132 web[3014]: > checklist-backend@1.0.0 start
+May  7 08:18:59 ip-172-31-33-132 web[3014]: > node index.js
+May  7 08:18:59 ip-172-31-33-132 web[3035]: node:internal/modules/cjs/loader:1143
+May  7 08:18:59 ip-172-31-33-132 web[3035]:  throw err;
+May  7 08:18:59 ip-172-31-33-132 web[3035]:  ^
+May  7 08:18:59 ip-172-31-33-132 web[3035]: Error: Cannot find module 'cookie-parser'
+May  7 08:18:59 ip-172-31-33-132 web[3035]: Require stack:
+May  7 08:18:59 ip-172-31-33-132 web[3035]: - /var/app/current/index.js
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:18:59 ip-172-31-33-132 web[3035]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:18:59 ip-172-31-33-132 web[3035]:  code: 'MODULE_NOT_FOUND',
+May  7 08:18:59 ip-172-31-33-132 web[3035]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:18:59 ip-172-31-33-132 web[3035]: }
+May  7 08:18:59 ip-172-31-33-132 web[3035]: Node.js v18.20.6
+May  7 08:19:00 ip-172-31-33-132 web[3048]: > checklist-backend@1.0.0 start
+May  7 08:19:00 ip-172-31-33-132 web[3048]: > node index.js
+May  7 08:19:00 ip-172-31-33-132 web[3066]: node:internal/modules/cjs/loader:1143
+May  7 08:19:00 ip-172-31-33-132 web[3066]:  throw err;
+May  7 08:19:00 ip-172-31-33-132 web[3066]:  ^
+May  7 08:19:00 ip-172-31-33-132 web[3066]: Error: Cannot find module 'cookie-parser'
+May  7 08:19:00 ip-172-31-33-132 web[3066]: Require stack:
+May  7 08:19:00 ip-172-31-33-132 web[3066]: - /var/app/current/index.js
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:19:00 ip-172-31-33-132 web[3066]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:19:00 ip-172-31-33-132 web[3066]:  code: 'MODULE_NOT_FOUND',
+May  7 08:19:00 ip-172-31-33-132 web[3066]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:19:00 ip-172-31-33-132 web[3066]: }
+May  7 08:19:00 ip-172-31-33-132 web[3066]: Node.js v18.20.6
+May  7 08:19:01 ip-172-31-33-132 web[3077]: > checklist-backend@1.0.0 start
+May  7 08:19:01 ip-172-31-33-132 web[3077]: > node index.js
+May  7 08:19:01 ip-172-31-33-132 web[3095]: node:internal/modules/cjs/loader:1143
+May  7 08:19:01 ip-172-31-33-132 web[3095]:  throw err;
+May  7 08:19:01 ip-172-31-33-132 web[3095]:  ^
+May  7 08:19:01 ip-172-31-33-132 web[3095]: Error: Cannot find module 'cookie-parser'
+May  7 08:19:01 ip-172-31-33-132 web[3095]: Require stack:
+May  7 08:19:01 ip-172-31-33-132 web[3095]: - /var/app/current/index.js
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:19:01 ip-172-31-33-132 web[3095]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:19:01 ip-172-31-33-132 web[3095]:  code: 'MODULE_NOT_FOUND',
+May  7 08:19:01 ip-172-31-33-132 web[3095]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:19:01 ip-172-31-33-132 web[3095]: }
+May  7 08:19:01 ip-172-31-33-132 web[3095]: Node.js v18.20.6
+May  7 08:19:01 ip-172-31-33-132 web[3106]: > checklist-backend@1.0.0 start
+May  7 08:19:01 ip-172-31-33-132 web[3106]: > node index.js
+May  7 08:19:02 ip-172-31-33-132 web[3124]: node:internal/modules/cjs/loader:1143
+May  7 08:19:02 ip-172-31-33-132 web[3124]:  throw err;
+May  7 08:19:02 ip-172-31-33-132 web[3124]:  ^
+May  7 08:19:02 ip-172-31-33-132 web[3124]: Error: Cannot find module 'cookie-parser'
+May  7 08:19:02 ip-172-31-33-132 web[3124]: Require stack:
+May  7 08:19:02 ip-172-31-33-132 web[3124]: - /var/app/current/index.js
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:19:02 ip-172-31-33-132 web[3124]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:19:02 ip-172-31-33-132 web[3124]:  code: 'MODULE_NOT_FOUND',
+May  7 08:19:02 ip-172-31-33-132 web[3124]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:19:02 ip-172-31-33-132 web[3124]: }
+May  7 08:19:02 ip-172-31-33-132 web[3124]: Node.js v18.20.6
+May  7 08:36:12 ip-172-31-33-132 web[4182]: > checklist-backend@1.0.0 start
+May  7 08:36:12 ip-172-31-33-132 web[4182]: > node index.js
+May  7 08:36:12 ip-172-31-33-132 web[4229]: node:internal/modules/cjs/loader:1143
+May  7 08:36:12 ip-172-31-33-132 web[4229]:  throw err;
+May  7 08:36:12 ip-172-31-33-132 web[4229]:  ^
+May  7 08:36:12 ip-172-31-33-132 web[4229]: Error: Cannot find module 'cookie-parser'
+May  7 08:36:12 ip-172-31-33-132 web[4229]: Require stack:
+May  7 08:36:12 ip-172-31-33-132 web[4229]: - /var/app/current/index.js
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:36:12 ip-172-31-33-132 web[4229]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:36:12 ip-172-31-33-132 web[4229]:  code: 'MODULE_NOT_FOUND',
+May  7 08:36:12 ip-172-31-33-132 web[4229]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:36:12 ip-172-31-33-132 web[4229]: }
+May  7 08:36:12 ip-172-31-33-132 web[4229]: Node.js v18.20.6
+May  7 08:36:13 ip-172-31-33-132 web[4273]: > checklist-backend@1.0.0 start
+May  7 08:36:13 ip-172-31-33-132 web[4273]: > node index.js
+May  7 08:36:13 ip-172-31-33-132 web[4291]: node:internal/modules/cjs/loader:1143
+May  7 08:36:13 ip-172-31-33-132 web[4291]:  throw err;
+May  7 08:36:13 ip-172-31-33-132 web[4291]:  ^
+May  7 08:36:13 ip-172-31-33-132 web[4291]: Error: Cannot find module 'cookie-parser'
+May  7 08:36:13 ip-172-31-33-132 web[4291]: Require stack:
+May  7 08:36:13 ip-172-31-33-132 web[4291]: - /var/app/current/index.js
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:36:13 ip-172-31-33-132 web[4291]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:36:13 ip-172-31-33-132 web[4291]:  code: 'MODULE_NOT_FOUND',
+May  7 08:36:13 ip-172-31-33-132 web[4291]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:36:13 ip-172-31-33-132 web[4291]: }
+May  7 08:36:13 ip-172-31-33-132 web[4291]: Node.js v18.20.6
+May  7 08:36:14 ip-172-31-33-132 web[4302]: > checklist-backend@1.0.0 start
+May  7 08:36:14 ip-172-31-33-132 web[4302]: > node index.js
+May  7 08:36:14 ip-172-31-33-132 web[4320]: node:internal/modules/cjs/loader:1143
+May  7 08:36:14 ip-172-31-33-132 web[4320]:  throw err;
+May  7 08:36:14 ip-172-31-33-132 web[4320]:  ^
+May  7 08:36:14 ip-172-31-33-132 web[4320]: Error: Cannot find module 'cookie-parser'
+May  7 08:36:14 ip-172-31-33-132 web[4320]: Require stack:
+May  7 08:36:14 ip-172-31-33-132 web[4320]: - /var/app/current/index.js
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:36:14 ip-172-31-33-132 web[4320]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:36:14 ip-172-31-33-132 web[4320]:  code: 'MODULE_NOT_FOUND',
+May  7 08:36:14 ip-172-31-33-132 web[4320]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:36:14 ip-172-31-33-132 web[4320]: }
+May  7 08:36:14 ip-172-31-33-132 web[4320]: Node.js v18.20.6
+May  7 08:36:14 ip-172-31-33-132 web[4331]: > checklist-backend@1.0.0 start
+May  7 08:36:14 ip-172-31-33-132 web[4331]: > node index.js
+May  7 08:36:15 ip-172-31-33-132 web[4349]: node:internal/modules/cjs/loader:1143
+May  7 08:36:15 ip-172-31-33-132 web[4349]:  throw err;
+May  7 08:36:15 ip-172-31-33-132 web[4349]:  ^
+May  7 08:36:15 ip-172-31-33-132 web[4349]: Error: Cannot find module 'cookie-parser'
+May  7 08:36:15 ip-172-31-33-132 web[4349]: Require stack:
+May  7 08:36:15 ip-172-31-33-132 web[4349]: - /var/app/current/index.js
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:36:15 ip-172-31-33-132 web[4349]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:36:15 ip-172-31-33-132 web[4349]:  code: 'MODULE_NOT_FOUND',
+May  7 08:36:15 ip-172-31-33-132 web[4349]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:36:15 ip-172-31-33-132 web[4349]: }
+May  7 08:36:15 ip-172-31-33-132 web[4349]: Node.js v18.20.6
+May  7 08:36:15 ip-172-31-33-132 web[4360]: > checklist-backend@1.0.0 start
+May  7 08:36:15 ip-172-31-33-132 web[4360]: > node index.js
+May  7 08:36:15 ip-172-31-33-132 web[4378]: node:internal/modules/cjs/loader:1143
+May  7 08:36:15 ip-172-31-33-132 web[4378]:  throw err;
+May  7 08:36:15 ip-172-31-33-132 web[4378]:  ^
+May  7 08:36:15 ip-172-31-33-132 web[4378]: Error: Cannot find module 'cookie-parser'
+May  7 08:36:15 ip-172-31-33-132 web[4378]: Require stack:
+May  7 08:36:15 ip-172-31-33-132 web[4378]: - /var/app/current/index.js
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:36:15 ip-172-31-33-132 web[4378]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:36:15 ip-172-31-33-132 web[4378]:  code: 'MODULE_NOT_FOUND',
+May  7 08:36:15 ip-172-31-33-132 web[4378]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:36:15 ip-172-31-33-132 web[4378]: }
+May  7 08:36:15 ip-172-31-33-132 web[4378]: Node.js v18.20.6
+May  7 08:36:16 ip-172-31-33-132 web[4389]: > checklist-backend@1.0.0 start
+May  7 08:36:16 ip-172-31-33-132 web[4389]: > node index.js
+May  7 08:36:16 ip-172-31-33-132 web[4407]: node:internal/modules/cjs/loader:1143
+May  7 08:36:16 ip-172-31-33-132 web[4407]:  throw err;
+May  7 08:36:16 ip-172-31-33-132 web[4407]:  ^
+May  7 08:36:16 ip-172-31-33-132 web[4407]: Error: Cannot find module 'cookie-parser'
+May  7 08:36:16 ip-172-31-33-132 web[4407]: Require stack:
+May  7 08:36:16 ip-172-31-33-132 web[4407]: - /var/app/current/index.js
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:36:16 ip-172-31-33-132 web[4407]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:36:16 ip-172-31-33-132 web[4407]:  code: 'MODULE_NOT_FOUND',
+May  7 08:36:16 ip-172-31-33-132 web[4407]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:36:16 ip-172-31-33-132 web[4407]: }
+May  7 08:36:16 ip-172-31-33-132 web[4407]: Node.js v18.20.6
+May  7 08:54:54 ip-172-31-33-132 web[5536]: > checklist-backend@1.0.0 start
+May  7 08:54:54 ip-172-31-33-132 web[5536]: > node index.js
+May  7 08:54:54 ip-172-31-33-132 web[5583]: node:internal/modules/cjs/loader:1143
+May  7 08:54:54 ip-172-31-33-132 web[5583]:  throw err;
+May  7 08:54:54 ip-172-31-33-132 web[5583]:  ^
+May  7 08:54:54 ip-172-31-33-132 web[5583]: Error: Cannot find module 'cookie-parser'
+May  7 08:54:54 ip-172-31-33-132 web[5583]: Require stack:
+May  7 08:54:54 ip-172-31-33-132 web[5583]: - /var/app/current/index.js
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:54:54 ip-172-31-33-132 web[5583]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:54:54 ip-172-31-33-132 web[5583]:  code: 'MODULE_NOT_FOUND',
+May  7 08:54:54 ip-172-31-33-132 web[5583]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:54:54 ip-172-31-33-132 web[5583]: }
+May  7 08:54:54 ip-172-31-33-132 web[5583]: Node.js v18.20.6
+May  7 08:54:55 ip-172-31-33-132 web[5618]: > checklist-backend@1.0.0 start
+May  7 08:54:55 ip-172-31-33-132 web[5618]: > node index.js
+May  7 08:54:55 ip-172-31-33-132 web[5636]: node:internal/modules/cjs/loader:1143
+May  7 08:54:55 ip-172-31-33-132 web[5636]:  throw err;
+May  7 08:54:55 ip-172-31-33-132 web[5636]:  ^
+May  7 08:54:55 ip-172-31-33-132 web[5636]: Error: Cannot find module 'cookie-parser'
+May  7 08:54:55 ip-172-31-33-132 web[5636]: Require stack:
+May  7 08:54:55 ip-172-31-33-132 web[5636]: - /var/app/current/index.js
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:54:55 ip-172-31-33-132 web[5636]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:54:55 ip-172-31-33-132 web[5636]:  code: 'MODULE_NOT_FOUND',
+May  7 08:54:55 ip-172-31-33-132 web[5636]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:54:55 ip-172-31-33-132 web[5636]: }
+May  7 08:54:55 ip-172-31-33-132 web[5636]: Node.js v18.20.6
+May  7 08:54:55 ip-172-31-33-132 web[5649]: > checklist-backend@1.0.0 start
+May  7 08:54:55 ip-172-31-33-132 web[5649]: > node index.js
+May  7 08:54:56 ip-172-31-33-132 web[5671]: node:internal/modules/cjs/loader:1143
+May  7 08:54:56 ip-172-31-33-132 web[5671]:  throw err;
+May  7 08:54:56 ip-172-31-33-132 web[5671]:  ^
+May  7 08:54:56 ip-172-31-33-132 web[5671]: Error: Cannot find module 'cookie-parser'
+May  7 08:54:56 ip-172-31-33-132 web[5671]: Require stack:
+May  7 08:54:56 ip-172-31-33-132 web[5671]: - /var/app/current/index.js
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:54:56 ip-172-31-33-132 web[5671]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:54:56 ip-172-31-33-132 web[5671]:  code: 'MODULE_NOT_FOUND',
+May  7 08:54:56 ip-172-31-33-132 web[5671]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:54:56 ip-172-31-33-132 web[5671]: }
+May  7 08:54:56 ip-172-31-33-132 web[5671]: Node.js v18.20.6
+May  7 08:54:56 ip-172-31-33-132 web[5682]: > checklist-backend@1.0.0 start
+May  7 08:54:56 ip-172-31-33-132 web[5682]: > node index.js
+May  7 08:54:56 ip-172-31-33-132 web[5700]: node:internal/modules/cjs/loader:1143
+May  7 08:54:56 ip-172-31-33-132 web[5700]:  throw err;
+May  7 08:54:56 ip-172-31-33-132 web[5700]:  ^
+May  7 08:54:56 ip-172-31-33-132 web[5700]: Error: Cannot find module 'cookie-parser'
+May  7 08:54:56 ip-172-31-33-132 web[5700]: Require stack:
+May  7 08:54:56 ip-172-31-33-132 web[5700]: - /var/app/current/index.js
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:54:56 ip-172-31-33-132 web[5700]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:54:56 ip-172-31-33-132 web[5700]:  code: 'MODULE_NOT_FOUND',
+May  7 08:54:56 ip-172-31-33-132 web[5700]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:54:56 ip-172-31-33-132 web[5700]: }
+May  7 08:54:56 ip-172-31-33-132 web[5700]: Node.js v18.20.6
+May  7 08:54:57 ip-172-31-33-132 web[5711]: > checklist-backend@1.0.0 start
+May  7 08:54:57 ip-172-31-33-132 web[5711]: > node index.js
+May  7 08:54:57 ip-172-31-33-132 web[5729]: node:internal/modules/cjs/loader:1143
+May  7 08:54:57 ip-172-31-33-132 web[5729]:  throw err;
+May  7 08:54:57 ip-172-31-33-132 web[5729]:  ^
+May  7 08:54:57 ip-172-31-33-132 web[5729]: Error: Cannot find module 'cookie-parser'
+May  7 08:54:57 ip-172-31-33-132 web[5729]: Require stack:
+May  7 08:54:57 ip-172-31-33-132 web[5729]: - /var/app/current/index.js
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:54:57 ip-172-31-33-132 web[5729]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:54:57 ip-172-31-33-132 web[5729]:  code: 'MODULE_NOT_FOUND',
+May  7 08:54:57 ip-172-31-33-132 web[5729]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:54:57 ip-172-31-33-132 web[5729]: }
+May  7 08:54:57 ip-172-31-33-132 web[5729]: Node.js v18.20.6
+May  7 08:54:58 ip-172-31-33-132 web[5740]: > checklist-backend@1.0.0 start
+May  7 08:54:58 ip-172-31-33-132 web[5740]: > node index.js
+May  7 08:54:58 ip-172-31-33-132 web[5758]: node:internal/modules/cjs/loader:1143
+May  7 08:54:58 ip-172-31-33-132 web[5758]:  throw err;
+May  7 08:54:58 ip-172-31-33-132 web[5758]:  ^
+May  7 08:54:58 ip-172-31-33-132 web[5758]: Error: Cannot find module 'cookie-parser'
+May  7 08:54:58 ip-172-31-33-132 web[5758]: Require stack:
+May  7 08:54:58 ip-172-31-33-132 web[5758]: - /var/app/current/index.js
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at require (node:internal/modules/helpers:177:18)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 08:54:58 ip-172-31-33-132 web[5758]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 08:54:58 ip-172-31-33-132 web[5758]:  code: 'MODULE_NOT_FOUND',
+May  7 08:54:58 ip-172-31-33-132 web[5758]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 08:54:58 ip-172-31-33-132 web[5758]: }
+May  7 08:54:58 ip-172-31-33-132 web[5758]: Node.js v18.20.6
+May  7 09:03:50 ip-172-31-33-132 web[6588]: > checklist-backend@1.0.0 start
+May  7 09:03:50 ip-172-31-33-132 web[6588]: > node index.js
+May  7 09:03:51 ip-172-31-33-132 web[6635]: node:internal/modules/cjs/loader:1143
+May  7 09:03:51 ip-172-31-33-132 web[6635]:  throw err;
+May  7 09:03:51 ip-172-31-33-132 web[6635]:  ^
+May  7 09:03:51 ip-172-31-33-132 web[6635]: Error: Cannot find module 'cookie-parser'
+May  7 09:03:51 ip-172-31-33-132 web[6635]: Require stack:
+May  7 09:03:51 ip-172-31-33-132 web[6635]: - /var/app/current/index.js
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at require (node:internal/modules/helpers:177:18)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 09:03:51 ip-172-31-33-132 web[6635]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 09:03:51 ip-172-31-33-132 web[6635]:  code: 'MODULE_NOT_FOUND',
+May  7 09:03:51 ip-172-31-33-132 web[6635]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 09:03:51 ip-172-31-33-132 web[6635]: }
+May  7 09:03:51 ip-172-31-33-132 web[6635]: Node.js v18.20.6
+May  7 09:03:51 ip-172-31-33-132 web[6673]: > checklist-backend@1.0.0 start
+May  7 09:03:51 ip-172-31-33-132 web[6673]: > node index.js
+May  7 09:03:51 ip-172-31-33-132 web[6691]: node:internal/modules/cjs/loader:1143
+May  7 09:03:51 ip-172-31-33-132 web[6691]:  throw err;
+May  7 09:03:51 ip-172-31-33-132 web[6691]:  ^
+May  7 09:03:51 ip-172-31-33-132 web[6691]: Error: Cannot find module 'cookie-parser'
+May  7 09:03:51 ip-172-31-33-132 web[6691]: Require stack:
+May  7 09:03:51 ip-172-31-33-132 web[6691]: - /var/app/current/index.js
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at require (node:internal/modules/helpers:177:18)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 09:03:51 ip-172-31-33-132 web[6691]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 09:03:51 ip-172-31-33-132 web[6691]:  code: 'MODULE_NOT_FOUND',
+May  7 09:03:51 ip-172-31-33-132 web[6691]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 09:03:51 ip-172-31-33-132 web[6691]: }
+May  7 09:03:51 ip-172-31-33-132 web[6691]: Node.js v18.20.6
+May  7 09:03:52 ip-172-31-33-132 web[6708]: > checklist-backend@1.0.0 start
+May  7 09:03:52 ip-172-31-33-132 web[6708]: > node index.js
+May  7 09:03:52 ip-172-31-33-132 web[6726]: node:internal/modules/cjs/loader:1143
+May  7 09:03:52 ip-172-31-33-132 web[6726]:  throw err;
+May  7 09:03:52 ip-172-31-33-132 web[6726]:  ^
+May  7 09:03:52 ip-172-31-33-132 web[6726]: Error: Cannot find module 'cookie-parser'
+May  7 09:03:52 ip-172-31-33-132 web[6726]: Require stack:
+May  7 09:03:52 ip-172-31-33-132 web[6726]: - /var/app/current/index.js
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at require (node:internal/modules/helpers:177:18)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 09:03:52 ip-172-31-33-132 web[6726]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 09:03:52 ip-172-31-33-132 web[6726]:  code: 'MODULE_NOT_FOUND',
+May  7 09:03:52 ip-172-31-33-132 web[6726]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 09:03:52 ip-172-31-33-132 web[6726]: }
+May  7 09:03:52 ip-172-31-33-132 web[6726]: Node.js v18.20.6
+May  7 09:03:53 ip-172-31-33-132 web[6737]: > checklist-backend@1.0.0 start
+May  7 09:03:53 ip-172-31-33-132 web[6737]: > node index.js
+May  7 09:03:53 ip-172-31-33-132 web[6755]: node:internal/modules/cjs/loader:1143
+May  7 09:03:53 ip-172-31-33-132 web[6755]:  throw err;
+May  7 09:03:53 ip-172-31-33-132 web[6755]:  ^
+May  7 09:03:53 ip-172-31-33-132 web[6755]: Error: Cannot find module 'cookie-parser'
+May  7 09:03:53 ip-172-31-33-132 web[6755]: Require stack:
+May  7 09:03:53 ip-172-31-33-132 web[6755]: - /var/app/current/index.js
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at require (node:internal/modules/helpers:177:18)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 09:03:53 ip-172-31-33-132 web[6755]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 09:03:53 ip-172-31-33-132 web[6755]:  code: 'MODULE_NOT_FOUND',
+May  7 09:03:53 ip-172-31-33-132 web[6755]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 09:03:53 ip-172-31-33-132 web[6755]: }
+May  7 09:03:53 ip-172-31-33-132 web[6755]: Node.js v18.20.6
+May  7 09:03:53 ip-172-31-33-132 web[6766]: > checklist-backend@1.0.0 start
+May  7 09:03:53 ip-172-31-33-132 web[6766]: > node index.js
+May  7 09:03:54 ip-172-31-33-132 web[6784]: node:internal/modules/cjs/loader:1143
+May  7 09:03:54 ip-172-31-33-132 web[6784]:  throw err;
+May  7 09:03:54 ip-172-31-33-132 web[6784]:  ^
+May  7 09:03:54 ip-172-31-33-132 web[6784]: Error: Cannot find module 'cookie-parser'
+May  7 09:03:54 ip-172-31-33-132 web[6784]: Require stack:
+May  7 09:03:54 ip-172-31-33-132 web[6784]: - /var/app/current/index.js
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at require (node:internal/modules/helpers:177:18)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 09:03:54 ip-172-31-33-132 web[6784]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 09:03:54 ip-172-31-33-132 web[6784]:  code: 'MODULE_NOT_FOUND',
+May  7 09:03:54 ip-172-31-33-132 web[6784]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 09:03:54 ip-172-31-33-132 web[6784]: }
+May  7 09:03:54 ip-172-31-33-132 web[6784]: Node.js v18.20.6
+May  7 09:03:54 ip-172-31-33-132 web[6795]: > checklist-backend@1.0.0 start
+May  7 09:03:54 ip-172-31-33-132 web[6795]: > node index.js
+May  7 09:03:54 ip-172-31-33-132 web[6813]: node:internal/modules/cjs/loader:1143
+May  7 09:03:54 ip-172-31-33-132 web[6813]:  throw err;
+May  7 09:03:54 ip-172-31-33-132 web[6813]:  ^
+May  7 09:03:54 ip-172-31-33-132 web[6813]: Error: Cannot find module 'cookie-parser'
+May  7 09:03:54 ip-172-31-33-132 web[6813]: Require stack:
+May  7 09:03:54 ip-172-31-33-132 web[6813]: - /var/app/current/index.js
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Module._load (node:internal/modules/cjs/loader:981:27)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Module.require (node:internal/modules/cjs/loader:1231:19)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at require (node:internal/modules/helpers:177:18)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Object.<anonymous> (/var/app/current/index.js:9:22)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Module.load (node:internal/modules/cjs/loader:1203:32)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Module._load (node:internal/modules/cjs/loader:1019:12)
+May  7 09:03:54 ip-172-31-33-132 web[6813]:    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+May  7 09:03:54 ip-172-31-33-132 web[6813]:  code: 'MODULE_NOT_FOUND',
+May  7 09:03:54 ip-172-31-33-132 web[6813]:  requireStack: [ '/var/app/current/index.js' ]
+May  7 09:03:54 ip-172-31-33-132 web[6813]: }
+May  7 09:03:54 ip-172-31-33-132 web[6813]: Node.js v18.20.6

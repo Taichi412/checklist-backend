@@ -1,0 +1,139 @@
+[2025-05-07T09:29:18Z] Started EB User Data
++ SLEEP_TIME=2
++ SLEEP_TIME_MAX=3600
++ true
++ curl https://elasticbeanstalk-platform-assets-ap-northeast-1.s3.ap-northeast-1.amazonaws.com/stalks/eb_nodejs18_amazon_linux_2023_1.0.705.0_20250417211222/lib/UserDataScript.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4838  100  4838    0     0  63363      0 --:--:-- --:--:-- --:--:-- 64506
++ RESULT=0
++ [[ 0 -ne 0 ]]
++ /bin/bash /tmp/ebbootstrap.sh 'https://cloudformation-waitcondition-ap-northeast-1.s3-ap-northeast-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aap-northeast-1%3A789279989926%3Astack/awseb-e-4ceqsrkpem-stack/a1ab7c80-2b25-11f0-abf2-0a2382e4cd63/a1adc670-2b25-11f0-abf2-0a2382e4cd63/AWSEBInstanceLaunchWaitHandle?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250507T092831Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIASU3QWAIZGF66I7IN%2F20250507%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=ee0fa2c2a66261d74e4a1886e4c3f748b09c56aba4a991be6b277e9fa65d9688' arn:aws:cloudformation:ap-northeast-1:789279989926:stack/awseb-e-4ceqsrkpem-stack/a1ab7c80-2b25-11f0-abf2-0a2382e4cd63 dce57a82-d2a8-4179-b240-70c12974a74e https://elasticbeanstalk-health.ap-northeast-1.amazonaws.com '' https://elasticbeanstalk-platform-assets-ap-northeast-1.s3.ap-northeast-1.amazonaws.com/stalks/eb_nodejs18_amazon_linux_2023_1.0.705.0_20250417211222 ap-northeast-1
+[2025-05-07T09:29:18.645Z] Started EB Bootstrapping Script.
+[2025-05-07T09:29:18.656Z] Received parameters:
+ TARBALLS = 
+ EB_GEMS = 
+ SIGNAL_URL = https://cloudformation-waitcondition-ap-northeast-1.s3-ap-northeast-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aap-northeast-1%3A789279989926%3Astack/awseb-e-4ceqsrkpem-stack/a1ab7c80-2b25-11f0-abf2-0a2382e4cd63/a1adc670-2b25-11f0-abf2-0a2382e4cd63/AWSEBInstanceLaunchWaitHandle?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250507T092831Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIASU3QWAIZGF66I7IN%2F20250507%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=ee0fa2c2a66261d74e4a1886e4c3f748b09c56aba4a991be6b277e9fa65d9688
+ STACK_ID = arn:aws:cloudformation:ap-northeast-1:789279989926:stack/awseb-e-4ceqsrkpem-stack/a1ab7c80-2b25-11f0-abf2-0a2382e4cd63
+ REGION = ap-northeast-1
+ GUID = 
+ HEALTHD_GROUP_ID = dce57a82-d2a8-4179-b240-70c12974a74e
+ HEALTHD_ENDPOINT = https://elasticbeanstalk-health.ap-northeast-1.amazonaws.com
+ PROXY_SERVER = 
+ HEALTHD_PROXY_LOG_LOCATION = 
+ PLATFORM_ASSETS_URL = https://elasticbeanstalk-platform-assets-ap-northeast-1.s3.ap-northeast-1.amazonaws.com/stalks/eb_nodejs18_amazon_linux_2023_1.0.705.0_20250417211222
+[2025-05-07T09:29:18.703Z] engine url is set to https://elasticbeanstalk-platform-assets-ap-northeast-1.s3.ap-northeast-1.amazonaws.com/stalks/eb_nodejs18_amazon_linux_2023_1.0.705.0_20250417211222/lib/platform-engine.zip
+[2025-05-07T09:29:18.716Z] first init of instance.
+[2025-05-07T09:29:18.725Z] Started executing cfn_init _OnInstanceBoot.
+[2025-05-07T09:29:18.733Z] Running cfn-init ConfigSet: _OnInstanceBoot.
+[2025-05-07T09:29:18.736Z] Using stack-id from userdata
+[2025-05-07T09:29:20.024Z] Command Returned: 
+[2025-05-07T09:29:20.027Z] Completed executing cfn_init.
+[2025-05-07T09:29:20.030Z] finished _OnInstanceBoot
+[2025-05-07T09:29:20.034Z] installing platform engine
+2025-05-07 09:29:20 URL:https://elasticbeanstalk-platform-assets-ap-northeast-1.s3.ap-northeast-1.amazonaws.com/stalks/eb_nodejs18_amazon_linux_2023_1.0.705.0_20250417211222/lib/platform-engine.zip [33326065/33326065] -> "/tmp/platform-engine.zip" [1]
+[2025-05-07T09:29:21.764Z] executing platform engine. see /var/log/eb-engine.log.
+[2025-05-07T09:29:25.502Z] Successfully bootstrapped instance.
+[2025-05-07T09:29:25.508Z] Sending signal 0 to CFN wait condition https://cloudformation-waitcondition-ap-northeast-1.s3-ap-northeast-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aap-northeast-1%3A789279989926%3Astack/awseb-e-4ceqsrkpem-stack/a1ab7c80-2b25-11f0-abf2-0a2382e4cd63/a1adc670-2b25-11f0-abf2-0a2382e4cd63/AWSEBInstanceLaunchWaitHandle?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250507T092831Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIASU3QWAIZGF66I7IN%2F20250507%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Signature=ee0fa2c2a66261d74e4a1886e4c3f748b09c56aba4a991be6b277e9fa65d9688
+CloudFormation signaled successfully with status SUCCESS
+[2025-05-07T09:29:26.134Z] Tailing /var/log/eb-engine.log
+
+******************* eb-engine taillog *******************
+2025/05/07 09:29:23.503233 [INFO] bootstrap healthd....
+2025/05/07 09:29:23.503250 [INFO] Running command: /usr/bin/id -u healthd || /usr/sbin/useradd --user-group healthd -s /sbin/nologin --create-home
+2025/05/07 09:29:23.509584 [INFO] 1001
+
+2025/05/07 09:29:23.509944 [INFO] configure bundle log for healthd...
+2025/05/07 09:29:23.510013 [INFO] Executing instruction: GetSetupProxyLog
+2025/05/07 09:29:23.510094 [INFO] Skipping Install yum packages
+2025/05/07 09:29:23.510101 [INFO] Skipping Install default nodejs
+2025/05/07 09:29:23.510109 [INFO] Skipping MarkBaked
+2025/05/07 09:29:23.510115 [INFO] Instance has NOT been bootstrapped
+2025/05/07 09:29:23.510118 [INFO] Executing instruction: TuneSystemSettings
+2025/05/07 09:29:23.510121 [INFO] Starting TuneSystemSettings
+2025/05/07 09:29:23.510128 [INFO] Instance has NOT been bootstrapped
+2025/05/07 09:29:23.522178 [INFO] Executing instruction: GetSetupLogRotate
+2025/05/07 09:29:23.522189 [INFO] Initialize LogRotate files and directories
+2025/05/07 09:29:23.538813 [INFO] Instance has NOT been bootstrapped
+2025/05/07 09:29:23.538826 [INFO] Executing instruction: BootstrapCFNHup
+2025/05/07 09:29:23.538829 [INFO] Bootstrap cfn-hup
+2025/05/07 09:29:23.540820 [INFO] Copying file /opt/elasticbeanstalk/config/private/aws-eb-command-handler.conf to /etc/cfn/hooks.d/aws-eb-command-handler.conf
+2025/05/07 09:29:23.542908 [INFO] Executing instruction: StartCFNHup
+2025/05/07 09:29:23.542917 [INFO] Start cfn-hup
+2025/05/07 09:29:23.542933 [INFO] Running command: systemctl show -p PartOf cfn-hup.service
+2025/05/07 09:29:23.560747 [INFO] cfn-hup is not registered with EB yet, registering it now
+2025/05/07 09:29:23.560780 [INFO] Running command: systemctl show -p PartOf cfn-hup.service
+2025/05/07 09:29:23.581352 [INFO] Running command: systemctl daemon-reload
+2025/05/07 09:29:24.148430 [INFO] Running command: systemctl reset-failed
+2025/05/07 09:29:24.168791 [INFO] Running command: systemctl is-enabled aws-eb.target
+2025/05/07 09:29:24.182761 [INFO] Running command: systemctl enable aws-eb.target
+2025/05/07 09:29:24.774486 [INFO] Running command: systemctl start aws-eb.target
+2025/05/07 09:29:24.785033 [INFO] Running command: systemctl enable cfn-hup.service
+2025/05/07 09:29:25.364490 [INFO] Created symlink /etc/systemd/system/multi-user.target.wants/cfn-hup.service → /etc/systemd/system/cfn-hup.service.
+
+2025/05/07 09:29:25.364529 [INFO] Running command: systemctl is-active cfn-hup.service
+2025/05/07 09:29:25.382176 [INFO] cfn-hup process is not running, starting it now
+2025/05/07 09:29:25.382205 [INFO] Running command: systemctl show -p PartOf cfn-hup.service
+2025/05/07 09:29:25.396815 [INFO] Running command: systemctl is-active cfn-hup.service
+2025/05/07 09:29:25.407897 [INFO] Running command: systemctl start cfn-hup.service
+2025/05/07 09:29:25.496053 [INFO] Instance has NOT been bootstrapped
+2025/05/07 09:29:25.496070 [INFO] Executing instruction: SetupPublishLogCronjob
+2025/05/07 09:29:25.496074 [INFO] Setup publish logs cron job...
+2025/05/07 09:29:25.496079 [INFO] Copying file /opt/elasticbeanstalk/config/private/logtasks/cron/publishlogs to /etc/cron.d/publishlogs
+2025/05/07 09:29:25.499612 [INFO] Instance has NOT been bootstrapped
+2025/05/07 09:29:25.499625 [INFO] Executing instruction: MarkBootstrapped
+2025/05/07 09:29:25.499629 [INFO] Starting MarkBootstrapped
+2025/05/07 09:29:25.499634 [INFO] Instance has NOT been bootstrapped
+2025/05/07 09:29:25.499723 [INFO] Marked instance as Bootstrapped
+2025/05/07 09:29:25.499728 [INFO] Executing instruction: Save CFN Stack Info
+2025/05/07 09:29:25.499784 [INFO] Executing cleanup logic
+2025/05/07 09:29:25.499794 [INFO] Platform Engine finished execution on command: env-launch
+******************* End of taillog *******************
+
+
+[2025-05-07T09:29:26.165Z] Tailing /var/log/eb-tools.log
+
+******************* eb-tools taillog *******************
+***eb-tools is not available yet.***
+******************* End of taillog *******************
+
+
+[2025-05-07T09:29:26.168Z] Tailing /var/log/eb-hooks.log
+
+******************* eb-hooks taillog *******************
+***eb-hooks is not available yet.***
+******************* End of taillog *******************
+
+
+[2025-05-07T09:29:26.182Z] Tailing /var/log/cfn-init.log
+
+******************* cfn-init taillog *******************
+2025-05-07 09:29:19,548 [INFO] -----------------------Starting build-----------------------
+2025-05-07 09:29:19,555 [INFO] Running configSets: _OnInstanceBoot
+2025-05-07 09:29:19,564 [INFO] Running configSet _OnInstanceBoot
+2025-05-07 09:29:19,567 [INFO] Running config AWSEBBaseConfig
+2025-05-07 09:29:19,924 [INFO] Command clearbackupfiles succeeded
+2025-05-07 09:29:19,929 [INFO] Running config AWSEBCfnHupEndpointOverride
+2025-05-07 09:29:19,947 [INFO] Command clearbackupfiles succeeded
+2025-05-07 09:29:19,949 [INFO] ConfigSets completed
+2025-05-07 09:29:19,949 [INFO] -----------------------Build complete-----------------------
+******************* End of taillog *******************
+
+
+[2025-05-07T09:29:26.206Z] Tailing /var/log/cfn-hup.log
+
+******************* cfn-hup taillog *******************
+2025-05-07 09:29:25,948 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-northeast-1.amazonaws.com
+2025-05-07 09:29:25,949 [DEBUG] SQS client initialized with endpoint https://sqs.ap-northeast-1.amazonaws.com
+2025-05-07 09:29:25,949 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-northeast-1.amazonaws.com
+2025-05-07 09:29:25,949 [DEBUG] Enabled single threading mode.
+2025-05-07 09:29:25,949 [DEBUG] Creating /var/lib/cfn-hup/data
+2025-05-07 09:29:25,958 [INFO] No umask value specified in config file. Using the default one: 0o22
+2025-05-07 09:29:26,057 [INFO] Pid: 1806
+******************* End of taillog *******************
+
+
+[2025-05-07T09:29:26.210Z] Completed EB Bootstrapping Script.
++ RESULT=0
++ [[ 0 -ne 0 ]]
++ exit 0

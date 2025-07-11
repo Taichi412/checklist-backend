@@ -1,0 +1,25 @@
+2025-05-07 09:29:25,948 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-northeast-1.amazonaws.com
+2025-05-07 09:29:25,949 [DEBUG] SQS client initialized with endpoint https://sqs.ap-northeast-1.amazonaws.com
+2025-05-07 09:29:25,949 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-northeast-1.amazonaws.com
+2025-05-07 09:29:25,949 [DEBUG] Enabled single threading mode.
+2025-05-07 09:29:25,949 [DEBUG] Creating /var/lib/cfn-hup/data
+2025-05-07 09:29:25,958 [INFO] No umask value specified in config file. Using the default one: 0o22
+2025-05-07 09:29:26,057 [INFO] Pid: 1806
+2025-05-07 09:29:26,562 [INFO] Refreshing listener credentials
+2025-05-07 09:29:26,695 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-05-07 09:31:39,237 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: bfa94001-2ff9-4209-b396-da96fd95c1c9)
+2025-05-07 09:31:39,237 [INFO] Running action for aws-eb-command-handler
+2025-05-07 09:31:44,813 [INFO] Action for aws-eb-command-handler succeeded, returning SUCCESS
+2025-05-07 09:34:45,167 [INFO] command processing is alive.
+2025-05-07 09:39:45,601 [INFO] command processing is alive.
+2025-05-07 09:44:46,055 [INFO] command processing is alive.
+2025-05-07 09:49:46,492 [INFO] command processing is alive.
+2025-05-07 09:50:56,818 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: a0ea80b4-65c7-4070-8015-50880d2cf663)
+2025-05-07 09:50:56,818 [INFO] Running action for aws-eb-command-handler
+2025-05-07 09:51:05,363 [INFO] Action for aws-eb-command-handler succeeded, returning SUCCESS
+2025-05-07 09:55:05,823 [INFO] command processing is alive.
+2025-05-07 09:59:25,695 [INFO] Refreshing listener credentials
+2025-05-07 09:59:25,803 [INFO] Scheduling next credential refresh in 1799.0 seconds
+2025-05-07 10:00:06,259 [INFO] command processing is alive.
+2025-05-07 10:02:42,461 [INFO] Received command ElasticBeanstalkCommand-AWSEBAutoScalingGroup (invocation id: f6e81b10-6b87-4893-b565-6c79f3441f16)
+2025-05-07 10:02:42,461 [INFO] Running action for aws-eb-command-handler

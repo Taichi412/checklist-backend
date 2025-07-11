@@ -1,0 +1,3 @@
+Retrieving logs...
+Logs were saved to C:\Users\taich\checklist-backend\.elasticbeanstalk\logs\250124_223434
+Logs were saved to C:\Users\taich\checklist-backend\.elasticbeanstalk\logs\250124_223434

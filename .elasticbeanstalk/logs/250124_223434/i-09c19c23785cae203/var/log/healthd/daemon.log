@@ -1,0 +1,5 @@
+# Logfile created on 2025-01-24 13:31:31 +0000 by logger.rb/v1.6.0
+A, [2025-01-24T13:31:32.670990 #2501]   ANY -- : healthd daemon 1.0.7 initialized
+W, [2025-01-24T13:31:32.778697 #2501]  WARN -- : log file "/var/log/nginx/healthd/application.log.2025-01-24-13" does not exist
+W, [2025-01-24T13:31:37.779207 #2501]  WARN -- : log file "/var/log/nginx/healthd/application.log.2025-01-24-13" does not exist
+W, [2025-01-24T13:31:42.781913 #2501]  WARN -- : log file "/var/log/nginx/healthd/application.log.2025-01-24-13" does not exist

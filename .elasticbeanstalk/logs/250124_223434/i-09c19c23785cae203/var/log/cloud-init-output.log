@@ -1,0 +1,63 @@
+Cloud-init v. 22.2.2 running 'init' at Fri, 24 Jan 2025 13:18:51 +0000. Up 9.76 seconds.
+ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: |  ens5  | True |         172.31.0.111        | 255.255.240.0 | global | 0a:f3:9b:71:b2:f9 |
+ci-info: |  ens5  | True | fe80::8f3:9bff:fe71:b2f9/64 |       .       |  link  | 0a:f3:9b:71:b2:f9 |
+ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+ci-info: +++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |  Gateway   |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+------------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 172.31.0.1 |     0.0.0.0     |    ens5   |   UG  |
+ci-info: |   1   |  172.31.0.0 |  0.0.0.0   |  255.255.240.0  |    ens5   |   U   |
+ci-info: |   2   |  172.31.0.1 |  0.0.0.0   | 255.255.255.255 |    ens5   |   UH  |
+ci-info: |   3   |  172.31.0.2 |  0.0.0.0   | 255.255.255.255 |    ens5   |   UH  |
+ci-info: +-------+-------------+------------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   0   |  fe80::/64  |    ::   |    ens5   |   U   |
+ci-info: |   2   |    local    |    ::   |    ens5   |   U   |
+ci-info: |   3   |  multicast  |    ::   |    ens5   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:Npxzx3odgeVyIBtP+l9nOHGzhJCfPNnIxAHS3LNIbV4 root@ip-172-31-0-111.ap-northeast-1.compute.internal
+The key's randomart image is:
++--[ED25519 256]--+
+|         .=oO.o  |
+|          .%.%.E |
+|          + %.&o.|
+|       . . + &.*o|
+|        S . + =.+|
+|       . + o o =.|
+|          . . o  |
+|           .     |
+|                 |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:rhECZ6bE3184IDpJDAoaAZP25JeUM+/0uu89D8xvpaQ root@ip-172-31-0-111.ap-northeast-1.compute.internal
+The key's randomart image is:
++---[ECDSA 256]---+
+|Oo    .          |
+|=B . =           |
+|+ X * *          |
+| o % = + .       |
+|  = + = S .      |
+|   . . = +o  . . |
+|      . +  +o o  |
+|       +  .Eoo   |
+|      ..+o .+o   |
++----[SHA256]-----+
+Cloud-init v. 22.2.2 running 'modules:config' at Fri, 24 Jan 2025 13:18:53 +0000. Up 12.37 seconds.
+Cloud-init v. 22.2.2 running 'modules:final' at Fri, 24 Jan 2025 13:18:54 +0000. Up 13.61 seconds.

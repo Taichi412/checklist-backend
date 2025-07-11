@@ -1,0 +1,12 @@
+Jan 24 13:31:36 ip-172-31-0-111 web[2620]: > checklist-backend@1.0.0 start
+Jan 24 13:31:36 ip-172-31-0-111 web[2620]: > node index.js
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]: Server running on port 3001
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]: Error connecting to MySQL:  Error: connect ECONNREFUSED 127.0.0.1:3306
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]:    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]:  errno: -111,
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]:  code: 'ECONNREFUSED',
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]:  syscall: 'connect',
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]:  address: '127.0.0.1',
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]:  port: 3306,
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]:  fatal: true
+Jan 24 13:31:36 ip-172-31-0-111 web[2690]: }
